@@ -1,0 +1,15 @@
+public class ForLoopWithBoolean {
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Current value of i: " + i);
+        }
+        System.out.println("\nLoop using a separate boolean variable:");
+        boolean conditionMet = true;
+        for (int j = 0; conditionMet; j++) {
+            System.out.println("Current value of j: " + j);
+            if (j >= 7) {
+                conditionMet = false;
+            }
+        }
+    }
+}
