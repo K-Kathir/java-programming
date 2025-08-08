@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class AutomorphicNumberRange {
+    public static boolean isAutomorphic(int num) {
+        int square = num * num;
+        String numStr = Integer.toString(num);
+        String squareStr = Integer.toString(square);
+        return squareStr.endsWith(numStr);
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the start of the range: ");
+        int start = scanner.nextInt();
+        System.out.print("Enter the end of the range: ");
+        int end = scanner.nextInt();
+        System.out.println("Automorphic numbers between " + start + " and " + end + ":");
+        for (int i = start; i <= end; i++) {
+            if (isAutomorphic(i)) {
+                System.out.println(i);
+            }
+        }
+        scanner.close();
+    }
+}
