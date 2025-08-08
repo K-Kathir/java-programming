@@ -1,0 +1,13 @@
+class Sample {
+	public void add() {
+		int X =10;
+		int Y=15;
+		System.out.println(X + Y);
+	}
+}
+class Main {
+	public static void main(String[] args) {
+		Sample obj=new Sample();
+		obj.add();
+	}
+}
