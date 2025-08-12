@@ -36,3 +36,21 @@ public class Main {
         sc.close();
     }
 }
+
+
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String data = "Hello";
+        System.out.println(data.contains("ll"));
+        System.out.println(data.equals("Hello"));
+        System.out.println(data.equalsIgnoreCase("hello"));
+        char[] chars = {'H', 'e', 'l', 'l', 'o'};
+        System.out.println(String.copyValueOf(chars));
+        System.out.println(String.valueOf(chars));
+        sc.close();
+    }
+}
