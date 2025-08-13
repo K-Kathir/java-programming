@@ -24,3 +24,15 @@ class Main {
     System.out.println(y.replaceFirst(b,"Hi"));
     }
 }
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    String x = "Hello World";
+    String y = "[,\\.\\s]";
+    String [] z = x.split(y);
+    for(String s : z)
+    System.out.println(s);
+    }
+}
