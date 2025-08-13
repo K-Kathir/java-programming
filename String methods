@@ -46,3 +46,13 @@ class Main {
     System.out.println(x.startsWith("he"));
     }
 }
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        String x = "Hello_World";
+        char[] y = x.toCharArray(); 
+        System.out.println(y[0]);
+    }
+}
