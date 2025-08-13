@@ -36,3 +36,13 @@ class Main {
     System.out.println(s);
     }
 }
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    String x = "Hello";
+    System.out.println(x.startsWith("Hello"));
+    System.out.println(x.startsWith("he"));
+    }
+}
