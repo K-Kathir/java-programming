@@ -10,3 +10,17 @@ class Main {
     System.out.println(y.regionMatches(7,a,4,5));
     }
 }
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    String x = "Hello";
+    String y = "Hello kathir Hello";
+    System.out.println(x.replace('l','p'));
+    String a = "(?i) Hello";
+    System.out.println(y.replaceAll(a," Hi"));
+    String b = "Hello";
+    System.out.println(y.replaceFirst(b,"Hi"));
+    }
+}
